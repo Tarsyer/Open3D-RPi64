@@ -51,7 +51,7 @@ make -j$(nproc)
 ```
 
 ```
-# Install Open3D python package (optional)
+# Install Open3D python package
 make install-pip-package -j$(nproc)
 python3 -c "import open3d; print(open3d)"
 ```
